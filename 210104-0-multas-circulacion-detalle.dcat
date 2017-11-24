@@ -1,0 +1,1189 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+
+
+ 
+				
+<rdf:RDF
+			 xmlns:foaf="http://xmlns.com/foaf/0.1/"
+			 xmlns:skos="http://datos.gob.es/kos/sector-publico/sector/"
+			 xmlns:dcat="http://www.w3.org/ns/dcat#"
+			 xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+			 xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+			 xmlns:dct="http://purl.org/dc/terms/"
+			 xmlns:dc="http://purl.org/dc/elements/1.1/"
+			 xmlns:time="http://www.w3.org/2006/time#"
+			 xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+			<dcat:Catalog rdf:about="http://datos.madrid.es/egob/catalogo">
+			
+				
+				
+				
+					<dcat:dataset>
+						<dcat:Dataset rdf:about="http://datos.madrid.es/egob/catalogo/210104-0-multas-circulacion-detalle">
+							<dct:identifier>http://datos.madrid.es/egob/catalogo/210104-0-multas-circulacion-detalle</dct:identifier>
+							<dct:title xml:lang="es">Multas de circulación: detalle</dct:title>
+							<dct:description xml:lang="es"><![CDATA[ En este conjunto de datos, se irán incorporando todas las multas de circulación que Ayuntamiento de Madrid tramita cada mes, con todo el detalle posible sobre cada una de ellas que permite la legislación de protección de datos. Se incluye información sobre la infracción cometida, su gravedad o el lugar donde se denunció. La información se ajusta a los datos existentes en el momento de la publicación de la misma, y no prejuzgan el resultado final de la multa como consecuencia reclamaciones y/ o recursos de las personas denunciadas. 
+ Por motivos de protección de datos, existe un número de infracciones que se han agrupado, indicando solamente el número y el importe total de todas ellas. Porcentualmente, es un número ínfimo.  Se recuerda, que está expresamente prohibido realizar labores de re-identificación personal de la información . 
+ La información que se proporciona es la que se tiene en los sistemas de información del Ayuntamiento, en el momento de la extracción, con lo cual pudieran existir alguna infracción que todavía no se hubiese mecanizado, en ese momento, lo cual no quiere indicar que no exista. Este número de infracciones de existir, seria mínimo. 
+ En estos ficheros de detalle, no se contabilizan las denuncias que contienen algún error y tampoco las anuladas. 
+ El campo "impor_bol" es el importe de la sanción prevista para la infracción. El mismo se verá reducido en un 50% si se paga la multa en el plazo de tiempo establecido en la Ley de Seguridad Vial y no se corresponde necesariamente con el que se recaudará efectivamente. Existe otro conjunto de datos de multas existente en el portal, con información complementaria y que contiene estadísticas mensuales de importes recaudados en vía voluntaria e importes transferidos a la vía ejecutiva (este último dato no implica que haya sido cobrada esa cantidad en ejecutiva).  También dispone en el Portal de distintos conjuntos de datos presupuestos, con previsiones de recaudación anual y con la ejecución mensual de esa previsión. 
+  Importante  :  
+ 
+  La información que se ofrece presenta un decalaje de dos meses con respecto al mes en que se produce la descarga.   
+  Los ficheros, a partir de marzo 2016 (incluído), presentan dos columnas adicionales,  como mejora de la información, con campos que faciliten la georreferenciación   (Coordenada-X; Coordenada-Y, en sistema de referencia ETRS89).    En una primera fase, estos campos incluyen datos  de las multas expedidas por: 
+ 
+ Rebasar un semáforo en fase roja 
+ No respetar las señales en una vía de circulación restringida o reservadas. 
+ 
+ 
+ En fases sucesivas, se irá ampliando progresivamente la información de coordenadas. 
+ ]]></dct:description>
+							<dcat:theme rdf:resource="http://datos.gob.es/kos/sector-publico/sector/transporte" />
+														
+							<dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-11-01T00:00:00</dct:issued>
+							<dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-11-13T13:08:31</dct:modified>
+							
+							
+								<dct:accrualPeriodicity>
+									<dct:Frequency>
+										<rdfs:label>mensual</rdfs:label>
+										<rdf:value>
+											<time:DurationDescription>
+												<rdfs:label>mensual</rdfs:label>
+												<time:months rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1</time:months>
+											</time:DurationDescription>
+										</rdf:value>
+									</dct:Frequency>
+								</dct:accrualPeriodicity>
+							
+							<dc:language>es</dc:language>
+							<dct:publisher rdf:resource="http://datos.gob.es/recurso/sector-publico/org/Organismo/L01280796"/>
+							
+							<dct:license rdf:resource="http://datos.madrid.es/egob/catalogo/aviso-legal"/>
+							
+							
+							
+							<dcat:distribution>
+  <dcat:Distribution>
+    <dct:title xml:lang="es">2017 Septiembre. Detalle</dct:title>
+    <dcat:accessURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://datos.madrid.es/egob/catalogo/210104-170-multas-circulacion-detalle.csv</dcat:accessURL>
+    <dcat:mediaType>text/csv</dcat:mediaType>
+    <dcat:byteSize>64585728</dcat:byteSize>
+  </dcat:Distribution>
+</dcat:distribution>
+<dcat:distribution>
+  <dcat:Distribution>
+    <dct:title xml:lang="es">2017 Septiembre. Detalle</dct:title>
+    <dcat:accessURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://datos.madrid.es/egob/catalogo/210104-171-multas-circulacion-detalle.txt</dcat:accessURL>
+    <dcat:mediaType>text/plain</dcat:mediaType>
+    <dcat:byteSize>64585728</dcat:byteSize>
+  </dcat:Distribution>
+</dcat:distribution>
+<dcat:distribution>
+  <dcat:Distribution>
+    <dct:title xml:lang="es">2017 Septiembre. Agrupadas-excluidas</dct:title>
+    <dcat:accessURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://datos.madrid.es/egob/catalogo/210104-172-multas-circulacion-detalle.csv</dcat:accessURL>
+    <dcat:mediaType>text/csv</dcat:mediaType>
+    <dcat:byteSize>1024</dcat:byteSize>
+  </dcat:Distribution>
+</dcat:distribution>
+<dcat:distribution>
+  <dcat:Distribution>
+    <dct:title xml:lang="es">2017 Septiembre. Agrupadas-excluidas</dct:title>
+    <dcat:accessURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://datos.madrid.es/egob/catalogo/210104-173-multas-circulacion-detalle.txt</dcat:accessURL>
+    <dcat:mediaType>text/plain</dcat:mediaType>
+    <dcat:byteSize>1024</dcat:byteSize>
+  </dcat:Distribution>
+</dcat:distribution>
+<dcat:distribution>
+  <dcat:Distribution>
+    <dct:title xml:lang="es">2017 Agosto. Detalle</dct:title>
+    <dcat:accessURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://datos.madrid.es/egob/catalogo/210104-166-multas-circulacion-detalle.csv</dcat:accessURL>
+    <dcat:mediaType>text/csv</dcat:mediaType>
+    <dcat:byteSize>50016256</dcat:byteSize>
+  </dcat:Distribution>
+</dcat:distribution>
+<dcat:distribution>
+  <dcat:Distribution>
+    <dct:title xml:lang="es">2017 Agosto. Detalle</dct:title>
+    <dcat:accessURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://datos.madrid.es/egob/catalogo/210104-167-multas-circulacion-detalle.txt</dcat:accessURL>
+    <dcat:mediaType>text/plain</dcat:mediaType>
+    <dcat:byteSize>50016256</dcat:byteSize>
+  </dcat:Distribution>
+</dcat:distribution>
+<dcat:distribution>
+  <dcat:Distribution>
+    <dct:title xml:lang="es">2017 Agosto. Agrupadas-excluidas</dct:title>
+    <dcat:accessURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://datos.madrid.es/egob/catalogo/210104-168-multas-circulacion-detalle.csv</dcat:accessURL>
+    <dcat:mediaType>text/csv</dcat:mediaType>
+    <dcat:byteSize>1024</dcat:byteSize>
+  </dcat:Distribution>
+</dcat:distribution>
+<dcat:distribution>
+  <dcat:Distribution>
+    <dct:title xml:lang="es">2017 Agosto. Agrupadas-excluidas</dct:title>
+    <dcat:accessURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://datos.madrid.es/egob/catalogo/210104-169-multas-circulacion-detalle.txt</dcat:accessURL>
+    <dcat:mediaType>text/plain</dcat:mediaType>
+    <dcat:byteSize>1024</dcat:byteSize>
+  </dcat:Distribution>
+</dcat:distribution>
+<dcat:distribution>
+  <dcat:Distribution>
+    <dct:title xml:lang="es">2017 Julio. Detalle</dct:title>
+    <dcat:accessURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://datos.madrid.es/egob/catalogo/210104-162-multas-circulacion-detalle.csv</dcat:accessURL>
+    <dcat:mediaType>text/csv</dcat:mediaType>
+    <dcat:byteSize>61125632</dcat:byteSize>
+  </dcat:Distribution>
+</dcat:distribution>
+<dcat:distribution>
+  <dcat:Distribution>
+    <dct:title xml:lang="es">2017 Julio. Detalle</dct:title>
+    <dcat:accessURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://datos.madrid.es/egob/catalogo/210104-163-multas-circulacion-detalle.txt</dcat:accessURL>
+    <dcat:mediaType>text/plain</dcat:mediaType>
+    <dcat:byteSize>61125632</dcat:byteSize>
+  </dcat:Distribution>
+</dcat:distribution>
+<dcat:distribution>
+  <dcat:Distribution>
+    <dct:title xml:lang="es">2017 Julio. Agrupadas-excluidas</dct:title>
+    <dcat:accessURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://datos.madrid.es/egob/catalogo/210104-164-multas-circulacion-detalle.csv</dcat:accessURL>
+    <dcat:mediaType>text/csv</dcat:mediaType>
+    <dcat:byteSize>1024</dcat:byteSize>
+  </dcat:Distribution>
+</dcat:distribution>
+<dcat:distribution>
+  <dcat:Distribution>
+    <dct:title xml:lang="es">2017 Julio. Agrupadas-excluidas</dct:title>
+    <dcat:accessURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://datos.madrid.es/egob/catalogo/210104-165-multas-circulacion-detalle.txt</dcat:accessURL>
+    <dcat:mediaType>text/plain</dcat:mediaType>
+    <dcat:byteSize>1024</dcat:byteSize>
+  </dcat:Distribution>
+</dcat:distribution>
+<dcat:distribution>
+  <dcat:Distribution>
+    <dct:title xml:lang="es">2017 Junio. Detalle</dct:title>
+    <dcat:accessURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://datos.madrid.es/egob/catalogo/210104-158-multas-circulacion-detalle.csv</dcat:accessURL>
+    <dcat:mediaType>text/csv</dcat:mediaType>
+    <dcat:byteSize>64217088</dcat:byteSize>
+  </dcat:Distribution>
+</dcat:distribution>
+<dcat:distribution>
+  <dcat:Distribution>
+    <dct:title xml:lang="es">2017 Junio. Detalle</dct:title>
+    <dcat:accessURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://datos.madrid.es/egob/catalogo/210104-159-multas-circulacion-detalle.txt</dcat:accessURL>
+    <dcat:mediaType>text/plain</dcat:mediaType>
+    <dcat:byteSize>64217088</dcat:byteSize>
+  </dcat:Distribution>
+</dcat:distribution>
+<dcat:distribution>
+  <dcat:Distribution>
+    <dct:title xml:lang="es">2017 Junio. Agrupadas-excluidas</dct:title>
+    <dcat:accessURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://datos.madrid.es/egob/catalogo/210104-160-multas-circulacion-detalle.csv</dcat:accessURL>
+    <dcat:mediaType>text/csv</dcat:mediaType>
+    <dcat:byteSize>1024</dcat:byteSize>
+  </dcat:Distribution>
+</dcat:distribution>
+<dcat:distribution>
+  <dcat:Distribution>
+    <dct:title xml:lang="es">2017 Junio. Agrupadas-excluidas</dct:title>
+    <dcat:accessURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://datos.madrid.es/egob/catalogo/210104-161-multas-circulacion-detalle.txt</dcat:accessURL>
+    <dcat:mediaType>text/plain</dcat:mediaType>
+    <dcat:byteSize>1024</dcat:byteSize>
+  </dcat:Distribution>
+</dcat:distribution>
+<dcat:distribution>
+  <dcat:Distribution>
+    <dct:title xml:lang="es">2017 Mayo. Detalle</dct:title>
+    <dcat:accessURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://datos.madrid.es/egob/catalogo/210104-154-multas-circulacion-detalle.csv</dcat:accessURL>
+    <dcat:mediaType>text/csv</dcat:mediaType>
+    <dcat:byteSize>61830144</dcat:byteSize>
+  </dcat:Distribution>
+</dcat:distribution>
+<dcat:distribution>
+  <dcat:Distribution>
+    <dct:title xml:lang="es">2017 Mayo. Detalle</dct:title>
+    <dcat:accessURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://datos.madrid.es/egob/catalogo/210104-155-multas-circulacion-detalle.txt</dcat:accessURL>
+    <dcat:mediaType>text/plain</dcat:mediaType>
+    <dcat:byteSize>61830144</dcat:byteSize>
+  </dcat:Distribution>
+</dcat:distribution>
+<dcat:distribution>
+  <dcat:Distribution>
+    <dct:title xml:lang="es">2017 Mayo. Agrupadas-excluidas</dct:title>
+    <dcat:accessURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://datos.madrid.es/egob/catalogo/210104-156-multas-circulacion-detalle.csv</dcat:accessURL>
+    <dcat:mediaType>text/csv</dcat:mediaType>
+    <dcat:byteSize>1024</dcat:byteSize>
+  </dcat:Distribution>
+</dcat:distribution>
+<dcat:distribution>
+  <dcat:Distribution>
+    <dct:title xml:lang="es">2017 Mayo. Agrupadas-excluidas</dct:title>
+    <dcat:accessURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://datos.madrid.es/egob/catalogo/210104-157-multas-circulacion-detalle.txt</dcat:accessURL>
+    <dcat:mediaType>text/plain</dcat:mediaType>
+    <dcat:byteSize>1024</dcat:byteSize>
+  </dcat:Distribution>
+</dcat:distribution>
+<dcat:distribution>
+  <dcat:Distribution>
+    <dct:title xml:lang="es">2017 Abril. Detalle</dct:title>
+    <dcat:accessURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://datos.madrid.es/egob/catalogo/210104-150-multas-circulacion-detalle.csv</dcat:accessURL>
+    <dcat:mediaType>text/csv</dcat:mediaType>
+    <dcat:byteSize>62045184</dcat:byteSize>
+  </dcat:Distribution>
+</dcat:distribution>
+<dcat:distribution>
+  <dcat:Distribution>
+    <dct:title xml:lang="es">2017 Abril. Detalle</dct:title>
+    <dcat:accessURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://datos.madrid.es/egob/catalogo/210104-151-multas-circulacion-detalle.txt</dcat:accessURL>
+    <dcat:mediaType>text/plain</dcat:mediaType>
+    <dcat:byteSize>62045184</dcat:byteSize>
+  </dcat:Distribution>
+</dcat:distribution>
+<dcat:distribution>
+  <dcat:Distribution>
+    <dct:title xml:lang="es">2017 Abril. Agrupadas-excluidas</dct:title>
+    <dcat:accessURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://datos.madrid.es/egob/catalogo/210104-152-multas-circulacion-detalle.csv</dcat:accessURL>
+    <dcat:mediaType>text/csv</dcat:mediaType>
+    <dcat:byteSize>1024</dcat:byteSize>
+  </dcat:Distribution>
+</dcat:distribution>
+<dcat:distribution>
+  <dcat:Distribution>
+    <dct:title xml:lang="es">2017 Abril. Agrupadas-excluidas</dct:title>
+    <dcat:accessURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://datos.madrid.es/egob/catalogo/210104-153-multas-circulacion-detalle.txt</dcat:accessURL>
+    <dcat:mediaType>text/plain</dcat:mediaType>
+    <dcat:byteSize>1024</dcat:byteSize>
+  </dcat:Distribution>
+</dcat:distribution>
+<dcat:distribution>
+  <dcat:Distribution>
+    <dct:title xml:lang="es">2017 Marzo. Detalle</dct:title>
+    <dcat:accessURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://datos.madrid.es/egob/catalogo/210104-146-multas-circulacion-detalle.csv</dcat:accessURL>
+    <dcat:mediaType>text/csv</dcat:mediaType>
+    <dcat:byteSize>68798464</dcat:byteSize>
+  </dcat:Distribution>
+</dcat:distribution>
+<dcat:distribution>
+  <dcat:Distribution>
+    <dct:title xml:lang="es">2017 Marzo. Detalle</dct:title>
+    <dcat:accessURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://datos.madrid.es/egob/catalogo/210104-147-multas-circulacion-detalle.txt</dcat:accessURL>
+    <dcat:mediaType>text/plain</dcat:mediaType>
+    <dcat:byteSize>68798464</dcat:byteSize>
+  </dcat:Distribution>
+</dcat:distribution>
+<dcat:distribution>
+  <dcat:Distribution>
+    <dct:title xml:lang="es">2017 Marzo. Agrupadas-excluidas</dct:title>
+    <dcat:accessURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://datos.madrid.es/egob/catalogo/210104-148-multas-circulacion-detalle.csv</dcat:accessURL>
+    <dcat:mediaType>text/csv</dcat:mediaType>
+    <dcat:byteSize>1024</dcat:byteSize>
+  </dcat:Distribution>
+</dcat:distribution>
+<dcat:distribution>
+  <dcat:Distribution>
+    <dct:title xml:lang="es">2017 Marzo. Agrupadas-excluidas</dct:title>
+    <dcat:accessURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://datos.madrid.es/egob/catalogo/210104-149-multas-circulacion-detalle.txt</dcat:accessURL>
+    <dcat:mediaType>text/plain</dcat:mediaType>
+    <dcat:byteSize>1024</dcat:byteSize>
+  </dcat:Distribution>
+</dcat:distribution>
+<dcat:distribution>
+  <dcat:Distribution>
+    <dct:title xml:lang="es">2017 Febrero. Detalle</dct:title>
+    <dcat:accessURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://datos.madrid.es/egob/catalogo/210104-142-multas-circulacion-detalle.csv</dcat:accessURL>
+    <dcat:mediaType>text/csv</dcat:mediaType>
+    <dcat:byteSize>63547392</dcat:byteSize>
+  </dcat:Distribution>
+</dcat:distribution>
+<dcat:distribution>
+  <dcat:Distribution>
+    <dct:title xml:lang="es">2017 Febrero. Detalle</dct:title>
+    <dcat:accessURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://datos.madrid.es/egob/catalogo/210104-143-multas-circulacion-detalle.txt</dcat:accessURL>
+    <dcat:mediaType>text/plain</dcat:mediaType>
+    <dcat:byteSize>63547392</dcat:byteSize>
+  </dcat:Distribution>
+</dcat:distribution>
+<dcat:distribution>
+  <dcat:Distribution>
+    <dct:title xml:lang="es">2017 Febrero. Agrupadas-excluidas</dct:title>
+    <dcat:accessURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://datos.madrid.es/egob/catalogo/210104-144-multas-circulacion-detalle.csv</dcat:accessURL>
+    <dcat:mediaType>text/csv</dcat:mediaType>
+    <dcat:byteSize>1024</dcat:byteSize>
+  </dcat:Distribution>
+</dcat:distribution>
+<dcat:distribution>
+  <dcat:Distribution>
+    <dct:title xml:lang="es">2017 Febrero. Agrupadas-excluidas</dct:title>
+    <dcat:accessURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://datos.madrid.es/egob/catalogo/210104-145-multas-circulacion-detalle.txt</dcat:accessURL>
+    <dcat:mediaType>text/plain</dcat:mediaType>
+    <dcat:byteSize>1024</dcat:byteSize>
+  </dcat:Distribution>
+</dcat:distribution>
+<dcat:distribution>
+  <dcat:Distribution>
+    <dct:title xml:lang="es">2017 Enero. Detalle</dct:title>
+    <dcat:accessURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://datos.madrid.es/egob/catalogo/210104-139-multas-circulacion-detalle.csv</dcat:accessURL>
+    <dcat:mediaType>text/csv</dcat:mediaType>
+    <dcat:byteSize>62206976</dcat:byteSize>
+  </dcat:Distribution>
+</dcat:distribution>
+<dcat:distribution>
+  <dcat:Distribution>
+    <dct:title xml:lang="es">2017 Enero. Detalle</dct:title>
+    <dcat:accessURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://datos.madrid.es/egob/catalogo/210104-138-multas-circulacion-detalle.txt</dcat:accessURL>
+    <dcat:mediaType>text/plain</dcat:mediaType>
+    <dcat:byteSize>62206976</dcat:byteSize>
+  </dcat:Distribution>
+</dcat:distribution>
+<dcat:distribution>
+  <dcat:Distribution>
+    <dct:title xml:lang="es">2017 Enero. Agrupadas-excluidas</dct:title>
+    <dcat:accessURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://datos.madrid.es/egob/catalogo/210104-140-multas-circulacion-detalle.csv</dcat:accessURL>
+    <dcat:mediaType>text/csv</dcat:mediaType>
+    <dcat:byteSize>1024</dcat:byteSize>
+  </dcat:Distribution>
+</dcat:distribution>
+<dcat:distribution>
+  <dcat:Distribution>
+    <dct:title xml:lang="es">2017 Enero. Agrupadas-excluidas</dct:title>
+    <dcat:accessURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://datos.madrid.es/egob/catalogo/210104-141-multas-circulacion-detalle.txt</dcat:accessURL>
+    <dcat:mediaType>text/plain</dcat:mediaType>
+    <dcat:byteSize>1024</dcat:byteSize>
+  </dcat:Distribution>
+</dcat:distribution>
+<dcat:distribution>
+  <dcat:Distribution>
+    <dct:title xml:lang="es">2016 Diciembre. Detalle</dct:title>
+    <dcat:accessURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://datos.madrid.es/egob/catalogo/210104-122-multas-circulacion-detalle.csv</dcat:accessURL>
+    <dcat:mediaType>text/csv</dcat:mediaType>
+    <dcat:byteSize>55055360</dcat:byteSize>
+  </dcat:Distribution>
+</dcat:distribution>
+<dcat:distribution>
+  <dcat:Distribution>
+    <dct:title xml:lang="es">2016 Diciembre. Detalle</dct:title>
+    <dcat:accessURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://datos.madrid.es/egob/catalogo/210104-128-multas-circulacion-detalle.txt</dcat:accessURL>
+    <dcat:mediaType>text/plain</dcat:mediaType>
+    <dcat:byteSize>55055360</dcat:byteSize>
+  </dcat:Distribution>
+</dcat:distribution>
+<dcat:distribution>
+  <dcat:Distribution>
+    <dct:title xml:lang="es">2016 Diciembre. Agrupadas-excluidas</dct:title>
+    <dcat:accessURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://datos.madrid.es/egob/catalogo/210104-123-multas-circulacion-detalle.csv</dcat:accessURL>
+    <dcat:mediaType>text/csv</dcat:mediaType>
+    <dcat:byteSize>1024</dcat:byteSize>
+  </dcat:Distribution>
+</dcat:distribution>
+<dcat:distribution>
+  <dcat:Distribution>
+    <dct:title xml:lang="es">2016 Diciembre. Agrupadas-excluidas</dct:title>
+    <dcat:accessURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://datos.madrid.es/egob/catalogo/210104-129-multas-circulacion-detalle.txt</dcat:accessURL>
+    <dcat:mediaType>text/plain</dcat:mediaType>
+    <dcat:byteSize>1024</dcat:byteSize>
+  </dcat:Distribution>
+</dcat:distribution>
+<dcat:distribution>
+  <dcat:Distribution>
+    <dct:title xml:lang="es">2016 Noviembre. Detalle</dct:title>
+    <dcat:accessURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://datos.madrid.es/egob/catalogo/210104-120-multas-circulacion-detalle.csv</dcat:accessURL>
+    <dcat:mediaType>text/csv</dcat:mediaType>
+    <dcat:byteSize>59593728</dcat:byteSize>
+  </dcat:Distribution>
+</dcat:distribution>
+<dcat:distribution>
+  <dcat:Distribution>
+    <dct:title xml:lang="es">2016 Noviembre. Detalle</dct:title>
+    <dcat:accessURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://datos.madrid.es/egob/catalogo/210104-126-multas-circulacion-detalle.txt</dcat:accessURL>
+    <dcat:mediaType>text/plain</dcat:mediaType>
+    <dcat:byteSize>59593728</dcat:byteSize>
+  </dcat:Distribution>
+</dcat:distribution>
+<dcat:distribution>
+  <dcat:Distribution>
+    <dct:title xml:lang="es">2016 Noviembre. Agrupadas-excluidas</dct:title>
+    <dcat:accessURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://datos.madrid.es/egob/catalogo/210104-121-multas-circulacion-detalle.csv</dcat:accessURL>
+    <dcat:mediaType>text/csv</dcat:mediaType>
+    <dcat:byteSize>1024</dcat:byteSize>
+  </dcat:Distribution>
+</dcat:distribution>
+<dcat:distribution>
+  <dcat:Distribution>
+    <dct:title xml:lang="es">2016 Noviembre. Agrupadas-excluidas</dct:title>
+    <dcat:accessURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://datos.madrid.es/egob/catalogo/210104-127-multas-circulacion-detalle.txt</dcat:accessURL>
+    <dcat:mediaType>text/plain</dcat:mediaType>
+    <dcat:byteSize>1024</dcat:byteSize>
+  </dcat:Distribution>
+</dcat:distribution>
+<dcat:distribution>
+  <dcat:Distribution>
+    <dct:title xml:lang="es">2016 Octubre. Detalle</dct:title>
+    <dcat:accessURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://datos.madrid.es/egob/catalogo/210104-118-multas-circulacion-detalle.csv</dcat:accessURL>
+    <dcat:mediaType>text/csv</dcat:mediaType>
+    <dcat:byteSize>63960064</dcat:byteSize>
+  </dcat:Distribution>
+</dcat:distribution>
+<dcat:distribution>
+  <dcat:Distribution>
+    <dct:title xml:lang="es">2016 Octubre. Detalle</dct:title>
+    <dcat:accessURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://datos.madrid.es/egob/catalogo/210104-124-multas-circulacion-detalle.txt</dcat:accessURL>
+    <dcat:mediaType>text/plain</dcat:mediaType>
+    <dcat:byteSize>63960064</dcat:byteSize>
+  </dcat:Distribution>
+</dcat:distribution>
+<dcat:distribution>
+  <dcat:Distribution>
+    <dct:title xml:lang="es">2016 Octubre. Agrupadas-excluidas</dct:title>
+    <dcat:accessURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://datos.madrid.es/egob/catalogo/210104-119-multas-circulacion-detalle.csv</dcat:accessURL>
+    <dcat:mediaType>text/csv</dcat:mediaType>
+    <dcat:byteSize>1024</dcat:byteSize>
+  </dcat:Distribution>
+</dcat:distribution>
+<dcat:distribution>
+  <dcat:Distribution>
+    <dct:title xml:lang="es">2016 Octubre. Agrupadas-excluidas</dct:title>
+    <dcat:accessURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://datos.madrid.es/egob/catalogo/210104-125-multas-circulacion-detalle.txt</dcat:accessURL>
+    <dcat:mediaType>text/plain</dcat:mediaType>
+    <dcat:byteSize>1024</dcat:byteSize>
+  </dcat:Distribution>
+</dcat:distribution>
+<dcat:distribution>
+  <dcat:Distribution>
+    <dct:title xml:lang="es">2016 Septiembre. Detalle</dct:title>
+    <dcat:accessURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://datos.madrid.es/egob/catalogo/210104-114-multas-circulacion-detalle.csv</dcat:accessURL>
+    <dcat:mediaType>text/csv</dcat:mediaType>
+    <dcat:byteSize>62507008</dcat:byteSize>
+  </dcat:Distribution>
+</dcat:distribution>
+<dcat:distribution>
+  <dcat:Distribution>
+    <dct:title xml:lang="es">2016 Septiembre. Detalle</dct:title>
+    <dcat:accessURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://datos.madrid.es/egob/catalogo/210104-116-multas-circulacion-detalle.txt</dcat:accessURL>
+    <dcat:mediaType>text/plain</dcat:mediaType>
+    <dcat:byteSize>62507008</dcat:byteSize>
+  </dcat:Distribution>
+</dcat:distribution>
+<dcat:distribution>
+  <dcat:Distribution>
+    <dct:title xml:lang="es">2016 Septiembre. Agrupadas-excluidas</dct:title>
+    <dcat:accessURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://datos.madrid.es/egob/catalogo/210104-115-multas-circulacion-detalle.csv</dcat:accessURL>
+    <dcat:mediaType>text/csv</dcat:mediaType>
+    <dcat:byteSize>1024</dcat:byteSize>
+  </dcat:Distribution>
+</dcat:distribution>
+<dcat:distribution>
+  <dcat:Distribution>
+    <dct:title xml:lang="es">2016 Septiembre. Agrupadas-excluidas</dct:title>
+    <dcat:accessURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://datos.madrid.es/egob/catalogo/210104-117-multas-circulacion-detalle.txt</dcat:accessURL>
+    <dcat:mediaType>text/plain</dcat:mediaType>
+    <dcat:byteSize>1024</dcat:byteSize>
+  </dcat:Distribution>
+</dcat:distribution>
+<dcat:distribution>
+  <dcat:Distribution>
+    <dct:title xml:lang="es">2016 Agosto. Detalle</dct:title>
+    <dcat:accessURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://datos.madrid.es/egob/catalogo/210104-110-multas-circulacion-detalle.csv</dcat:accessURL>
+    <dcat:mediaType>text/csv</dcat:mediaType>
+    <dcat:byteSize>50640896</dcat:byteSize>
+  </dcat:Distribution>
+</dcat:distribution>
+<dcat:distribution>
+  <dcat:Distribution>
+    <dct:title xml:lang="es">2016 Agosto. Detalle</dct:title>
+    <dcat:accessURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://datos.madrid.es/egob/catalogo/210104-112-multas-circulacion-detalle.txt</dcat:accessURL>
+    <dcat:mediaType>text/plain</dcat:mediaType>
+    <dcat:byteSize>50640896</dcat:byteSize>
+  </dcat:Distribution>
+</dcat:distribution>
+<dcat:distribution>
+  <dcat:Distribution>
+    <dct:title xml:lang="es">2016 Agosto. Agrupadas-excluidas</dct:title>
+    <dcat:accessURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://datos.madrid.es/egob/catalogo/210104-111-multas-circulacion-detalle.csv</dcat:accessURL>
+    <dcat:mediaType>text/csv</dcat:mediaType>
+    <dcat:byteSize>1024</dcat:byteSize>
+  </dcat:Distribution>
+</dcat:distribution>
+<dcat:distribution>
+  <dcat:Distribution>
+    <dct:title xml:lang="es">2016 Agosto. Agrupadas-excluidas</dct:title>
+    <dcat:accessURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://datos.madrid.es/egob/catalogo/210104-113-multas-circulacion-detalle.txt</dcat:accessURL>
+    <dcat:mediaType>text/plain</dcat:mediaType>
+    <dcat:byteSize>1024</dcat:byteSize>
+  </dcat:Distribution>
+</dcat:distribution>
+<dcat:distribution>
+  <dcat:Distribution>
+    <dct:title xml:lang="es">2016 Julio. Detalle</dct:title>
+    <dcat:accessURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://datos.madrid.es/egob/catalogo/210104-106-multas-circulacion-detalle.csv</dcat:accessURL>
+    <dcat:mediaType>text/csv</dcat:mediaType>
+    <dcat:byteSize>63048704</dcat:byteSize>
+  </dcat:Distribution>
+</dcat:distribution>
+<dcat:distribution>
+  <dcat:Distribution>
+    <dct:title xml:lang="es">2016 Julio. Detalle</dct:title>
+    <dcat:accessURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://datos.madrid.es/egob/catalogo/210104-108-multas-circulacion-detalle.txt</dcat:accessURL>
+    <dcat:mediaType>text/plain</dcat:mediaType>
+    <dcat:byteSize>63048704</dcat:byteSize>
+  </dcat:Distribution>
+</dcat:distribution>
+<dcat:distribution>
+  <dcat:Distribution>
+    <dct:title xml:lang="es">2016 Julio. Agrupadas-excluidas</dct:title>
+    <dcat:accessURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://datos.madrid.es/egob/catalogo/210104-107-multas-circulacion-detalle.csv</dcat:accessURL>
+    <dcat:mediaType>text/csv</dcat:mediaType>
+    <dcat:byteSize>1024</dcat:byteSize>
+  </dcat:Distribution>
+</dcat:distribution>
+<dcat:distribution>
+  <dcat:Distribution>
+    <dct:title xml:lang="es">2016 Julio. Agrupadas-excluidas</dct:title>
+    <dcat:accessURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://datos.madrid.es/egob/catalogo/210104-109-multas-circulacion-detalle.txt</dcat:accessURL>
+    <dcat:mediaType>text/plain</dcat:mediaType>
+    <dcat:byteSize>1024</dcat:byteSize>
+  </dcat:Distribution>
+</dcat:distribution>
+<dcat:distribution>
+  <dcat:Distribution>
+    <dct:title xml:lang="es">2016 Junio. Detalle</dct:title>
+    <dcat:accessURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://datos.madrid.es/egob/catalogo/210104-102-multas-circulacion-detalle.csv</dcat:accessURL>
+    <dcat:mediaType>text/csv</dcat:mediaType>
+    <dcat:byteSize>67697664</dcat:byteSize>
+  </dcat:Distribution>
+</dcat:distribution>
+<dcat:distribution>
+  <dcat:Distribution>
+    <dct:title xml:lang="es">2016 Junio. Detalle</dct:title>
+    <dcat:accessURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://datos.madrid.es/egob/catalogo/210104-104-multas-circulacion-detalle.txt</dcat:accessURL>
+    <dcat:mediaType>text/plain</dcat:mediaType>
+    <dcat:byteSize>67697664</dcat:byteSize>
+  </dcat:Distribution>
+</dcat:distribution>
+<dcat:distribution>
+  <dcat:Distribution>
+    <dct:title xml:lang="es">2016 Junio. Agrupadas-excluidas</dct:title>
+    <dcat:accessURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://datos.madrid.es/egob/catalogo/210104-103-multas-circulacion-detalle.csv</dcat:accessURL>
+    <dcat:mediaType>text/csv</dcat:mediaType>
+    <dcat:byteSize>1024</dcat:byteSize>
+  </dcat:Distribution>
+</dcat:distribution>
+<dcat:distribution>
+  <dcat:Distribution>
+    <dct:title xml:lang="es">2016 Junio. Agrupadas-excluidas</dct:title>
+    <dcat:accessURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://datos.madrid.es/egob/catalogo/210104-105-multas-circulacion-detalle.txt</dcat:accessURL>
+    <dcat:mediaType>text/plain</dcat:mediaType>
+    <dcat:byteSize>1024</dcat:byteSize>
+  </dcat:Distribution>
+</dcat:distribution>
+<dcat:distribution>
+  <dcat:Distribution>
+    <dct:title xml:lang="es">2016 Mayo. Detalle</dct:title>
+    <dcat:accessURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://datos.madrid.es/egob/catalogo/210104-98-multas-circulacion-detalle.csv</dcat:accessURL>
+    <dcat:mediaType>text/csv</dcat:mediaType>
+    <dcat:byteSize>72077312</dcat:byteSize>
+  </dcat:Distribution>
+</dcat:distribution>
+<dcat:distribution>
+  <dcat:Distribution>
+    <dct:title xml:lang="es">2016 Mayo. Detalle</dct:title>
+    <dcat:accessURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://datos.madrid.es/egob/catalogo/210104-100-multas-circulacion-detalle.txt</dcat:accessURL>
+    <dcat:mediaType>text/plain</dcat:mediaType>
+    <dcat:byteSize>72077312</dcat:byteSize>
+  </dcat:Distribution>
+</dcat:distribution>
+<dcat:distribution>
+  <dcat:Distribution>
+    <dct:title xml:lang="es">2016 Mayo. Agrupadas-excluidas</dct:title>
+    <dcat:accessURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://datos.madrid.es/egob/catalogo/210104-99-multas-circulacion-detalle.csv</dcat:accessURL>
+    <dcat:mediaType>text/csv</dcat:mediaType>
+    <dcat:byteSize>1024</dcat:byteSize>
+  </dcat:Distribution>
+</dcat:distribution>
+<dcat:distribution>
+  <dcat:Distribution>
+    <dct:title xml:lang="es">2016 Mayo. Agrupadas-excluidas</dct:title>
+    <dcat:accessURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://datos.madrid.es/egob/catalogo/210104-101-multas-circulacion-detalle.txt</dcat:accessURL>
+    <dcat:mediaType>text/plain</dcat:mediaType>
+    <dcat:byteSize>1024</dcat:byteSize>
+  </dcat:Distribution>
+</dcat:distribution>
+<dcat:distribution>
+  <dcat:Distribution>
+    <dct:title xml:lang="es">2016 Abril. Detalle</dct:title>
+    <dcat:accessURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://datos.madrid.es/egob/catalogo/210104-134-multas-circulacion-detalle.csv</dcat:accessURL>
+    <dcat:mediaType>text/csv</dcat:mediaType>
+    <dcat:byteSize>67383296</dcat:byteSize>
+  </dcat:Distribution>
+</dcat:distribution>
+<dcat:distribution>
+  <dcat:Distribution>
+    <dct:title xml:lang="es">2016 Abril. Detalle</dct:title>
+    <dcat:accessURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://datos.madrid.es/egob/catalogo/210104-135-multas-circulacion-detalle.txt</dcat:accessURL>
+    <dcat:mediaType>text/plain</dcat:mediaType>
+    <dcat:byteSize>67383296</dcat:byteSize>
+  </dcat:Distribution>
+</dcat:distribution>
+<dcat:distribution>
+  <dcat:Distribution>
+    <dct:title xml:lang="es">2016 Abril. Agrupadas-excluidas</dct:title>
+    <dcat:accessURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://datos.madrid.es/egob/catalogo/210104-136-multas-circulacion-detalle.csv</dcat:accessURL>
+    <dcat:mediaType>text/csv</dcat:mediaType>
+    <dcat:byteSize>1024</dcat:byteSize>
+  </dcat:Distribution>
+</dcat:distribution>
+<dcat:distribution>
+  <dcat:Distribution>
+    <dct:title xml:lang="es">2016 Abril. Agrupadas-excluidas</dct:title>
+    <dcat:accessURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://datos.madrid.es/egob/catalogo/210104-137-multas-circulacion-detalle.txt</dcat:accessURL>
+    <dcat:mediaType>text/plain</dcat:mediaType>
+    <dcat:byteSize>1024</dcat:byteSize>
+  </dcat:Distribution>
+</dcat:distribution>
+<dcat:distribution>
+  <dcat:Distribution>
+    <dct:title xml:lang="es">2016 Marzo. Detalle</dct:title>
+    <dcat:accessURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://datos.madrid.es/egob/catalogo/210104-130-multas-circulacion-detalle.csv</dcat:accessURL>
+    <dcat:mediaType>text/csv</dcat:mediaType>
+    <dcat:byteSize>53974016</dcat:byteSize>
+  </dcat:Distribution>
+</dcat:distribution>
+<dcat:distribution>
+  <dcat:Distribution>
+    <dct:title xml:lang="es">2016 Marzo. Detalle</dct:title>
+    <dcat:accessURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://datos.madrid.es/egob/catalogo/210104-131-multas-circulacion-detalle.txt</dcat:accessURL>
+    <dcat:mediaType>text/plain</dcat:mediaType>
+    <dcat:byteSize>53974016</dcat:byteSize>
+  </dcat:Distribution>
+</dcat:distribution>
+<dcat:distribution>
+  <dcat:Distribution>
+    <dct:title xml:lang="es">2016 Marzo. Agrupadas-excluidas</dct:title>
+    <dcat:accessURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://datos.madrid.es/egob/catalogo/210104-132-multas-circulacion-detalle.csv</dcat:accessURL>
+    <dcat:mediaType>text/csv</dcat:mediaType>
+    <dcat:byteSize>1024</dcat:byteSize>
+  </dcat:Distribution>
+</dcat:distribution>
+<dcat:distribution>
+  <dcat:Distribution>
+    <dct:title xml:lang="es">2016 Marzo. Agrupadas-excluidas</dct:title>
+    <dcat:accessURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://datos.madrid.es/egob/catalogo/210104-133-multas-circulacion-detalle.txt</dcat:accessURL>
+    <dcat:mediaType>text/plain</dcat:mediaType>
+    <dcat:byteSize>1024</dcat:byteSize>
+  </dcat:Distribution>
+</dcat:distribution>
+<dcat:distribution>
+  <dcat:Distribution>
+    <dct:title xml:lang="es">2016 Febrero. Detalle</dct:title>
+    <dcat:accessURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://datos.madrid.es/egob/catalogo/210104-86-multas-circulacion-detalle.csv</dcat:accessURL>
+    <dcat:mediaType>text/csv</dcat:mediaType>
+    <dcat:byteSize>39330816</dcat:byteSize>
+  </dcat:Distribution>
+</dcat:distribution>
+<dcat:distribution>
+  <dcat:Distribution>
+    <dct:title xml:lang="es">2016 Febrero. Detalle</dct:title>
+    <dcat:accessURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://datos.madrid.es/egob/catalogo/210104-87-multas-circulacion-detalle.txt</dcat:accessURL>
+    <dcat:mediaType>text/plain</dcat:mediaType>
+    <dcat:byteSize>39330816</dcat:byteSize>
+  </dcat:Distribution>
+</dcat:distribution>
+<dcat:distribution>
+  <dcat:Distribution>
+    <dct:title xml:lang="es">2016 Febrero. Agrupadas-excluidas</dct:title>
+    <dcat:accessURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://datos.madrid.es/egob/catalogo/210104-88-multas-circulacion-detalle.csv</dcat:accessURL>
+    <dcat:mediaType>text/csv</dcat:mediaType>
+    <dcat:byteSize>1024</dcat:byteSize>
+  </dcat:Distribution>
+</dcat:distribution>
+<dcat:distribution>
+  <dcat:Distribution>
+    <dct:title xml:lang="es">2016 Febrero. Agrupadas-excluidas</dct:title>
+    <dcat:accessURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://datos.madrid.es/egob/catalogo/210104-89-multas-circulacion-detalle.txt</dcat:accessURL>
+    <dcat:mediaType>text/plain</dcat:mediaType>
+    <dcat:byteSize>1024</dcat:byteSize>
+  </dcat:Distribution>
+</dcat:distribution>
+<dcat:distribution>
+  <dcat:Distribution>
+    <dct:title xml:lang="es">2016 Enero. Detalle</dct:title>
+    <dcat:accessURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://datos.madrid.es/egob/catalogo/210104-82-multas-circulacion-detalle.csv</dcat:accessURL>
+    <dcat:mediaType>text/csv</dcat:mediaType>
+    <dcat:byteSize>37791744</dcat:byteSize>
+  </dcat:Distribution>
+</dcat:distribution>
+<dcat:distribution>
+  <dcat:Distribution>
+    <dct:title xml:lang="es">2016 Enero. Detalle</dct:title>
+    <dcat:accessURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://datos.madrid.es/egob/catalogo/210104-83-multas-circulacion-detalle.txt</dcat:accessURL>
+    <dcat:mediaType>text/plain</dcat:mediaType>
+    <dcat:byteSize>37791744</dcat:byteSize>
+  </dcat:Distribution>
+</dcat:distribution>
+<dcat:distribution>
+  <dcat:Distribution>
+    <dct:title xml:lang="es">2016 Enero. Agrupadas-excluidas</dct:title>
+    <dcat:accessURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://datos.madrid.es/egob/catalogo/210104-84-multas-circulacion-detalle.csv</dcat:accessURL>
+    <dcat:mediaType>text/csv</dcat:mediaType>
+    <dcat:byteSize>1024</dcat:byteSize>
+  </dcat:Distribution>
+</dcat:distribution>
+<dcat:distribution>
+  <dcat:Distribution>
+    <dct:title xml:lang="es">2016 Enero. Agrupadas-excluidas</dct:title>
+    <dcat:accessURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://datos.madrid.es/egob/catalogo/210104-85-multas-circulacion-detalle.txt</dcat:accessURL>
+    <dcat:mediaType>text/plain</dcat:mediaType>
+    <dcat:byteSize>1024</dcat:byteSize>
+  </dcat:Distribution>
+</dcat:distribution>
+<dcat:distribution>
+  <dcat:Distribution>
+    <dct:title xml:lang="es">2015 Diciembre. Detalle</dct:title>
+    <dcat:accessURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://datos.madrid.es/egob/catalogo/210104-74-multas-circulacion-detalle.csv</dcat:accessURL>
+    <dcat:mediaType>text/csv</dcat:mediaType>
+    <dcat:byteSize>50941952</dcat:byteSize>
+  </dcat:Distribution>
+</dcat:distribution>
+<dcat:distribution>
+  <dcat:Distribution>
+    <dct:title xml:lang="es">2015 Diciembre. Detalle</dct:title>
+    <dcat:accessURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://datos.madrid.es/egob/catalogo/210104-75-multas-circulacion-detalle.txt</dcat:accessURL>
+    <dcat:mediaType>text/plain</dcat:mediaType>
+    <dcat:byteSize>50941952</dcat:byteSize>
+  </dcat:Distribution>
+</dcat:distribution>
+<dcat:distribution>
+  <dcat:Distribution>
+    <dct:title xml:lang="es">2015 Diciembre. Agrupadas-excluidas</dct:title>
+    <dcat:accessURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://datos.madrid.es/egob/catalogo/210104-76-multas-circulacion-detalle.csv</dcat:accessURL>
+    <dcat:mediaType>text/csv</dcat:mediaType>
+    <dcat:byteSize>1024</dcat:byteSize>
+  </dcat:Distribution>
+</dcat:distribution>
+<dcat:distribution>
+  <dcat:Distribution>
+    <dct:title xml:lang="es">2015 Diciembre. Agrupadas-excluidas</dct:title>
+    <dcat:accessURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://datos.madrid.es/egob/catalogo/210104-77-multas-circulacion-detalle.txt</dcat:accessURL>
+    <dcat:mediaType>text/plain</dcat:mediaType>
+    <dcat:byteSize>1024</dcat:byteSize>
+  </dcat:Distribution>
+</dcat:distribution>
+<dcat:distribution>
+  <dcat:Distribution>
+    <dct:title xml:lang="es">2015 Noviembre. Detalle</dct:title>
+    <dcat:accessURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://datos.madrid.es/egob/catalogo/210104-70-multas-circulacion-detalle.csv</dcat:accessURL>
+    <dcat:mediaType>text/csv</dcat:mediaType>
+    <dcat:byteSize>45979648</dcat:byteSize>
+  </dcat:Distribution>
+</dcat:distribution>
+<dcat:distribution>
+  <dcat:Distribution>
+    <dct:title xml:lang="es">2015 Noviembre. Detalle</dct:title>
+    <dcat:accessURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://datos.madrid.es/egob/catalogo/210104-71-multas-circulacion-detalle.txt</dcat:accessURL>
+    <dcat:mediaType>text/plain</dcat:mediaType>
+    <dcat:byteSize>45979648</dcat:byteSize>
+  </dcat:Distribution>
+</dcat:distribution>
+<dcat:distribution>
+  <dcat:Distribution>
+    <dct:title xml:lang="es">2015 Noviembre. Agrupadas-excluidas</dct:title>
+    <dcat:accessURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://datos.madrid.es/egob/catalogo/210104-72-multas-circulacion-detalle.csv</dcat:accessURL>
+    <dcat:mediaType>text/csv</dcat:mediaType>
+    <dcat:byteSize>1024</dcat:byteSize>
+  </dcat:Distribution>
+</dcat:distribution>
+<dcat:distribution>
+  <dcat:Distribution>
+    <dct:title xml:lang="es">2015 Noviembre. Agrupadas-excluidas</dct:title>
+    <dcat:accessURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://datos.madrid.es/egob/catalogo/210104-73-multas-circulacion-detalle.txt</dcat:accessURL>
+    <dcat:mediaType>text/plain</dcat:mediaType>
+    <dcat:byteSize>1024</dcat:byteSize>
+  </dcat:Distribution>
+</dcat:distribution>
+<dcat:distribution>
+  <dcat:Distribution>
+    <dct:title xml:lang="es">2015 Octubre. Detalle</dct:title>
+    <dcat:accessURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://datos.madrid.es/egob/catalogo/210104-66-multas-circulacion-detalle.csv</dcat:accessURL>
+    <dcat:mediaType>text/csv</dcat:mediaType>
+    <dcat:byteSize>40033280</dcat:byteSize>
+  </dcat:Distribution>
+</dcat:distribution>
+<dcat:distribution>
+  <dcat:Distribution>
+    <dct:title xml:lang="es">2015 Octubre. Detalle</dct:title>
+    <dcat:accessURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://datos.madrid.es/egob/catalogo/210104-67-multas-circulacion-detalle.txt</dcat:accessURL>
+    <dcat:mediaType>text/plain</dcat:mediaType>
+    <dcat:byteSize>40033280</dcat:byteSize>
+  </dcat:Distribution>
+</dcat:distribution>
+<dcat:distribution>
+  <dcat:Distribution>
+    <dct:title xml:lang="es">2015 Octubre. Agrupadas-excluidas</dct:title>
+    <dcat:accessURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://datos.madrid.es/egob/catalogo/210104-68-multas-circulacion-detalle.csv</dcat:accessURL>
+    <dcat:mediaType>text/csv</dcat:mediaType>
+    <dcat:byteSize>1024</dcat:byteSize>
+  </dcat:Distribution>
+</dcat:distribution>
+<dcat:distribution>
+  <dcat:Distribution>
+    <dct:title xml:lang="es">2015 Octubre. Agrupadas-excluidas</dct:title>
+    <dcat:accessURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://datos.madrid.es/egob/catalogo/210104-69-multas-circulacion-detalle.txt</dcat:accessURL>
+    <dcat:mediaType>text/plain</dcat:mediaType>
+    <dcat:byteSize>1024</dcat:byteSize>
+  </dcat:Distribution>
+</dcat:distribution>
+<dcat:distribution>
+  <dcat:Distribution>
+    <dct:title xml:lang="es">2015 Septiembre. Detalle</dct:title>
+    <dcat:accessURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://datos.madrid.es/egob/catalogo/210104-62-multas-circulacion-detalle.csv</dcat:accessURL>
+    <dcat:mediaType>text/csv</dcat:mediaType>
+    <dcat:byteSize>38099968</dcat:byteSize>
+  </dcat:Distribution>
+</dcat:distribution>
+<dcat:distribution>
+  <dcat:Distribution>
+    <dct:title xml:lang="es">2015 Septiembre. Detalle</dct:title>
+    <dcat:accessURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://datos.madrid.es/egob/catalogo/210104-63-multas-circulacion-detalle.txt</dcat:accessURL>
+    <dcat:mediaType>text/plain</dcat:mediaType>
+    <dcat:byteSize>38099968</dcat:byteSize>
+  </dcat:Distribution>
+</dcat:distribution>
+<dcat:distribution>
+  <dcat:Distribution>
+    <dct:title xml:lang="es">2015 Septiembre. Agrupadas-excluidas</dct:title>
+    <dcat:accessURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://datos.madrid.es/egob/catalogo/210104-64-multas-circulacion-detalle.csv</dcat:accessURL>
+    <dcat:mediaType>text/csv</dcat:mediaType>
+    <dcat:byteSize>1024</dcat:byteSize>
+  </dcat:Distribution>
+</dcat:distribution>
+<dcat:distribution>
+  <dcat:Distribution>
+    <dct:title xml:lang="es">2015 Septiembre. Agrupadas-excluidas</dct:title>
+    <dcat:accessURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://datos.madrid.es/egob/catalogo/210104-65-multas-circulacion-detalle.txt</dcat:accessURL>
+    <dcat:mediaType>text/plain</dcat:mediaType>
+    <dcat:byteSize>1024</dcat:byteSize>
+  </dcat:Distribution>
+</dcat:distribution>
+<dcat:distribution>
+  <dcat:Distribution>
+    <dct:title xml:lang="es">2015 Agosto. Detalle</dct:title>
+    <dcat:accessURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://datos.madrid.es/egob/catalogo/210104-58-multas-circulacion-detalle.csv</dcat:accessURL>
+    <dcat:mediaType>text/csv</dcat:mediaType>
+    <dcat:byteSize>25849856</dcat:byteSize>
+  </dcat:Distribution>
+</dcat:distribution>
+<dcat:distribution>
+  <dcat:Distribution>
+    <dct:title xml:lang="es">2015 Agosto. Detalle</dct:title>
+    <dcat:accessURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://datos.madrid.es/egob/catalogo/210104-59-multas-circulacion-detalle.txt</dcat:accessURL>
+    <dcat:mediaType>text/plain</dcat:mediaType>
+    <dcat:byteSize>25849856</dcat:byteSize>
+  </dcat:Distribution>
+</dcat:distribution>
+<dcat:distribution>
+  <dcat:Distribution>
+    <dct:title xml:lang="es">2015 Agosto. Agrupadas-excluidas</dct:title>
+    <dcat:accessURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://datos.madrid.es/egob/catalogo/210104-60-multas-circulacion-detalle.csv</dcat:accessURL>
+    <dcat:mediaType>text/csv</dcat:mediaType>
+    <dcat:byteSize>1024</dcat:byteSize>
+  </dcat:Distribution>
+</dcat:distribution>
+<dcat:distribution>
+  <dcat:Distribution>
+    <dct:title xml:lang="es">2015 Agosto. Agrupadas-excluidas</dct:title>
+    <dcat:accessURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://datos.madrid.es/egob/catalogo/210104-61-multas-circulacion-detalle.txt</dcat:accessURL>
+    <dcat:mediaType>text/plain</dcat:mediaType>
+    <dcat:byteSize>1024</dcat:byteSize>
+  </dcat:Distribution>
+</dcat:distribution>
+<dcat:distribution>
+  <dcat:Distribution>
+    <dct:title xml:lang="es">2015 Julio. Detalle</dct:title>
+    <dcat:accessURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://datos.madrid.es/egob/catalogo/210104-54-multas-circulacion-detalle.csv</dcat:accessURL>
+    <dcat:mediaType>text/csv</dcat:mediaType>
+    <dcat:byteSize>39933952</dcat:byteSize>
+  </dcat:Distribution>
+</dcat:distribution>
+<dcat:distribution>
+  <dcat:Distribution>
+    <dct:title xml:lang="es">2015 Julio. Detalle</dct:title>
+    <dcat:accessURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://datos.madrid.es/egob/catalogo/210104-55-multas-circulacion-detalle.txt</dcat:accessURL>
+    <dcat:mediaType>text/plain</dcat:mediaType>
+    <dcat:byteSize>39933952</dcat:byteSize>
+  </dcat:Distribution>
+</dcat:distribution>
+<dcat:distribution>
+  <dcat:Distribution>
+    <dct:title xml:lang="es">2015 Julio. Agrupadas-excluidas</dct:title>
+    <dcat:accessURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://datos.madrid.es/egob/catalogo/210104-56-multas-circulacion-detalle.csv</dcat:accessURL>
+    <dcat:mediaType>text/csv</dcat:mediaType>
+    <dcat:byteSize>1024</dcat:byteSize>
+  </dcat:Distribution>
+</dcat:distribution>
+<dcat:distribution>
+  <dcat:Distribution>
+    <dct:title xml:lang="es">2015 Julio. Agrupadas-excluidas</dct:title>
+    <dcat:accessURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://datos.madrid.es/egob/catalogo/210104-57-multas-circulacion-detalle.txt</dcat:accessURL>
+    <dcat:mediaType>text/plain</dcat:mediaType>
+    <dcat:byteSize>1024</dcat:byteSize>
+  </dcat:Distribution>
+</dcat:distribution>
+<dcat:distribution>
+  <dcat:Distribution>
+    <dct:title xml:lang="es">2015 Junio. Detalle</dct:title>
+    <dcat:accessURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://datos.madrid.es/egob/catalogo/210104-50-multas-circulacion-detalle.csv</dcat:accessURL>
+    <dcat:mediaType>text/csv</dcat:mediaType>
+    <dcat:byteSize>44152832</dcat:byteSize>
+  </dcat:Distribution>
+</dcat:distribution>
+<dcat:distribution>
+  <dcat:Distribution>
+    <dct:title xml:lang="es">2015 Junio. Detalle</dct:title>
+    <dcat:accessURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://datos.madrid.es/egob/catalogo/210104-51-multas-circulacion-detalle.txt</dcat:accessURL>
+    <dcat:mediaType>text/plain</dcat:mediaType>
+    <dcat:byteSize>44152832</dcat:byteSize>
+  </dcat:Distribution>
+</dcat:distribution>
+<dcat:distribution>
+  <dcat:Distribution>
+    <dct:title xml:lang="es">2015 Junio. Agrupadas-excluidas</dct:title>
+    <dcat:accessURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://datos.madrid.es/egob/catalogo/210104-52-multas-circulacion-detalle.csv</dcat:accessURL>
+    <dcat:mediaType>text/csv</dcat:mediaType>
+    <dcat:byteSize>1024</dcat:byteSize>
+  </dcat:Distribution>
+</dcat:distribution>
+<dcat:distribution>
+  <dcat:Distribution>
+    <dct:title xml:lang="es">2015 Junio. Agrupadas-excluidas</dct:title>
+    <dcat:accessURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://datos.madrid.es/egob/catalogo/210104-53-multas-circulacion-detalle.txt</dcat:accessURL>
+    <dcat:mediaType>text/plain</dcat:mediaType>
+    <dcat:byteSize>1024</dcat:byteSize>
+  </dcat:Distribution>
+</dcat:distribution>
+<dcat:distribution>
+  <dcat:Distribution>
+    <dct:title xml:lang="es">2015 Mayo. Detalle</dct:title>
+    <dcat:accessURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://datos.madrid.es/egob/catalogo/210104-46-multas-circulacion-detalle.csv</dcat:accessURL>
+    <dcat:mediaType>text/csv</dcat:mediaType>
+    <dcat:byteSize>42797056</dcat:byteSize>
+  </dcat:Distribution>
+</dcat:distribution>
+<dcat:distribution>
+  <dcat:Distribution>
+    <dct:title xml:lang="es">2015 Mayo. Detalle</dct:title>
+    <dcat:accessURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://datos.madrid.es/egob/catalogo/210104-47-multas-circulacion-detalle.txt</dcat:accessURL>
+    <dcat:mediaType>text/plain</dcat:mediaType>
+    <dcat:byteSize>42797056</dcat:byteSize>
+  </dcat:Distribution>
+</dcat:distribution>
+<dcat:distribution>
+  <dcat:Distribution>
+    <dct:title xml:lang="es">2015 Mayo. Agrupadas-excluidas</dct:title>
+    <dcat:accessURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://datos.madrid.es/egob/catalogo/210104-48-multas-circulacion-detalle.csv</dcat:accessURL>
+    <dcat:mediaType>text/csv</dcat:mediaType>
+    <dcat:byteSize>1024</dcat:byteSize>
+  </dcat:Distribution>
+</dcat:distribution>
+<dcat:distribution>
+  <dcat:Distribution>
+    <dct:title xml:lang="es">2015 Mayo. Agrupadas-excluidas</dct:title>
+    <dcat:accessURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://datos.madrid.es/egob/catalogo/210104-49-multas-circulacion-detalle.txt</dcat:accessURL>
+    <dcat:mediaType>text/plain</dcat:mediaType>
+    <dcat:byteSize>1024</dcat:byteSize>
+  </dcat:Distribution>
+</dcat:distribution>
+<dcat:distribution>
+  <dcat:Distribution>
+    <dct:title xml:lang="es">2015 Abril. Detalle</dct:title>
+    <dcat:accessURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://datos.madrid.es/egob/catalogo/210104-42-multas-circulacion-detalle.csv</dcat:accessURL>
+    <dcat:mediaType>text/csv</dcat:mediaType>
+    <dcat:byteSize>44041216</dcat:byteSize>
+  </dcat:Distribution>
+</dcat:distribution>
+<dcat:distribution>
+  <dcat:Distribution>
+    <dct:title xml:lang="es">2015 Abril. Detalle</dct:title>
+    <dcat:accessURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://datos.madrid.es/egob/catalogo/210104-43-multas-circulacion-detalle.txt</dcat:accessURL>
+    <dcat:mediaType>text/plain</dcat:mediaType>
+    <dcat:byteSize>44041216</dcat:byteSize>
+  </dcat:Distribution>
+</dcat:distribution>
+<dcat:distribution>
+  <dcat:Distribution>
+    <dct:title xml:lang="es">2015 Abril. Agrupadas-excluidas</dct:title>
+    <dcat:accessURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://datos.madrid.es/egob/catalogo/210104-44-multas-circulacion-detalle.csv</dcat:accessURL>
+    <dcat:mediaType>text/csv</dcat:mediaType>
+    <dcat:byteSize>1024</dcat:byteSize>
+  </dcat:Distribution>
+</dcat:distribution>
+<dcat:distribution>
+  <dcat:Distribution>
+    <dct:title xml:lang="es">2015 Abril. Agrupadas-excluidas</dct:title>
+    <dcat:accessURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://datos.madrid.es/egob/catalogo/210104-45-multas-circulacion-detalle.txt</dcat:accessURL>
+    <dcat:mediaType>text/plain</dcat:mediaType>
+    <dcat:byteSize>1024</dcat:byteSize>
+  </dcat:Distribution>
+</dcat:distribution>
+<dcat:distribution>
+  <dcat:Distribution>
+    <dct:title xml:lang="es">2015 Marzo. Detalle</dct:title>
+    <dcat:accessURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://datos.madrid.es/egob/catalogo/210104-78-multas-circulacion-detalle.csv</dcat:accessURL>
+    <dcat:mediaType>text/csv</dcat:mediaType>
+    <dcat:byteSize>23301120</dcat:byteSize>
+  </dcat:Distribution>
+</dcat:distribution>
+<dcat:distribution>
+  <dcat:Distribution>
+    <dct:title xml:lang="es">2015 Marzo. Detalle</dct:title>
+    <dcat:accessURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://datos.madrid.es/egob/catalogo/210104-79-multas-circulacion-detalle.txt</dcat:accessURL>
+    <dcat:mediaType>text/plain</dcat:mediaType>
+    <dcat:byteSize>41880576</dcat:byteSize>
+  </dcat:Distribution>
+</dcat:distribution>
+<dcat:distribution>
+  <dcat:Distribution>
+    <dct:title xml:lang="es">2015 Marzo. Agrupadas-excluidas</dct:title>
+    <dcat:accessURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://datos.madrid.es/egob/catalogo/210104-80-multas-circulacion-detalle.csv</dcat:accessURL>
+    <dcat:mediaType>text/csv</dcat:mediaType>
+    <dcat:byteSize>1024</dcat:byteSize>
+  </dcat:Distribution>
+</dcat:distribution>
+<dcat:distribution>
+  <dcat:Distribution>
+    <dct:title xml:lang="es">2015 Marzo. Agrupadas-excluidas</dct:title>
+    <dcat:accessURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://datos.madrid.es/egob/catalogo/210104-81-multas-circulacion-detalle.txt</dcat:accessURL>
+    <dcat:mediaType>text/plain</dcat:mediaType>
+    <dcat:byteSize>1024</dcat:byteSize>
+  </dcat:Distribution>
+</dcat:distribution>
+<dcat:distribution>
+  <dcat:Distribution>
+    <dct:title xml:lang="es">2015 Febrero. Detalle</dct:title>
+    <dcat:accessURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://datos.madrid.es/egob/catalogo/210104-34-multas-circulacion-detalle.csv</dcat:accessURL>
+    <dcat:mediaType>text/csv</dcat:mediaType>
+    <dcat:byteSize>61440</dcat:byteSize>
+  </dcat:Distribution>
+</dcat:distribution>
+<dcat:distribution>
+  <dcat:Distribution>
+    <dct:title xml:lang="es">2015 Febrero. Detalle</dct:title>
+    <dcat:accessURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://datos.madrid.es/egob/catalogo/210104-35-multas-circulacion-detalle.txt</dcat:accessURL>
+    <dcat:mediaType>text/plain</dcat:mediaType>
+    <dcat:byteSize>1024</dcat:byteSize>
+  </dcat:Distribution>
+</dcat:distribution>
+<dcat:distribution>
+  <dcat:Distribution>
+    <dct:title xml:lang="es">2015 Febrero. Agrupadas-excluidas</dct:title>
+    <dcat:accessURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://datos.madrid.es/egob/catalogo/210104-36-multas-circulacion-detalle.csv</dcat:accessURL>
+    <dcat:mediaType>text/csv</dcat:mediaType>
+    <dcat:byteSize>1024</dcat:byteSize>
+  </dcat:Distribution>
+</dcat:distribution>
+<dcat:distribution>
+  <dcat:Distribution>
+    <dct:title xml:lang="es">2015 Febrero. Agrupadas-excluidas</dct:title>
+    <dcat:accessURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://datos.madrid.es/egob/catalogo/210104-37-multas-circulacion-detalle.txt</dcat:accessURL>
+    <dcat:mediaType>text/plain</dcat:mediaType>
+    <dcat:byteSize>1024</dcat:byteSize>
+  </dcat:Distribution>
+</dcat:distribution>
+<dcat:distribution>
+  <dcat:Distribution>
+    <dct:title xml:lang="es">2015 Enero. Detalle</dct:title>
+    <dcat:accessURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://datos.madrid.es/egob/catalogo/210104-30-multas-circulacion-detalle.csv</dcat:accessURL>
+    <dcat:mediaType>text/csv</dcat:mediaType>
+    <dcat:byteSize>26019840</dcat:byteSize>
+  </dcat:Distribution>
+</dcat:distribution>
+<dcat:distribution>
+  <dcat:Distribution>
+    <dct:title xml:lang="es">2015 Enero. Detalle</dct:title>
+    <dcat:accessURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://datos.madrid.es/egob/catalogo/210104-31-multas-circulacion-detalle.txt</dcat:accessURL>
+    <dcat:mediaType>text/plain</dcat:mediaType>
+    <dcat:byteSize>26019840</dcat:byteSize>
+  </dcat:Distribution>
+</dcat:distribution>
+<dcat:distribution>
+  <dcat:Distribution>
+    <dct:title xml:lang="es">2015 Enero. Agrupadas-excluidas</dct:title>
+    <dcat:accessURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://datos.madrid.es/egob/catalogo/210104-32-multas-circulacion-detalle.csv</dcat:accessURL>
+    <dcat:mediaType>text/csv</dcat:mediaType>
+    <dcat:byteSize>1024</dcat:byteSize>
+  </dcat:Distribution>
+</dcat:distribution>
+<dcat:distribution>
+  <dcat:Distribution>
+    <dct:title xml:lang="es">2015 Enero. Agrupadas-excluidas</dct:title>
+    <dcat:accessURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://datos.madrid.es/egob/catalogo/210104-33-multas-circulacion-detalle.txt</dcat:accessURL>
+    <dcat:mediaType>text/plain</dcat:mediaType>
+    <dcat:byteSize>1024</dcat:byteSize>
+  </dcat:Distribution>
+</dcat:distribution>
+<dcat:distribution>
+  <dcat:Distribution>
+    <dct:title xml:lang="es">2014 Noviembre-Diciembre. Detalle</dct:title>
+    <dcat:accessURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://datos.madrid.es/egob/catalogo/210104-26-multas-circulacion-detalle.csv</dcat:accessURL>
+    <dcat:mediaType>text/csv</dcat:mediaType>
+    <dcat:byteSize>45721600</dcat:byteSize>
+  </dcat:Distribution>
+</dcat:distribution>
+<dcat:distribution>
+  <dcat:Distribution>
+    <dct:title xml:lang="es">2014 Noviembre-Diciembre. Detalle</dct:title>
+    <dcat:accessURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://datos.madrid.es/egob/catalogo/210104-27-multas-circulacion-detalle.txt</dcat:accessURL>
+    <dcat:mediaType>text/plain</dcat:mediaType>
+    <dcat:byteSize>45721600</dcat:byteSize>
+  </dcat:Distribution>
+</dcat:distribution>
+<dcat:distribution>
+  <dcat:Distribution>
+    <dct:title xml:lang="es">2014 Noviembre-Diciembre. Agrupadas-excluidas</dct:title>
+    <dcat:accessURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://datos.madrid.es/egob/catalogo/210104-28-multas-circulacion-detalle.csv</dcat:accessURL>
+    <dcat:mediaType>text/csv</dcat:mediaType>
+    <dcat:byteSize>1024</dcat:byteSize>
+  </dcat:Distribution>
+</dcat:distribution>
+<dcat:distribution>
+  <dcat:Distribution>
+    <dct:title xml:lang="es">2014 Septiembre-Octubre. Detalle</dct:title>
+    <dcat:accessURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://datos.madrid.es/egob/catalogo/210104-22-multas-circulacion-detalle.csv</dcat:accessURL>
+    <dcat:mediaType>text/csv</dcat:mediaType>
+    <dcat:byteSize>56706048</dcat:byteSize>
+  </dcat:Distribution>
+</dcat:distribution>
+<dcat:distribution>
+  <dcat:Distribution>
+    <dct:title xml:lang="es">2014 Septiembre-Octubre. Detalle</dct:title>
+    <dcat:accessURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://datos.madrid.es/egob/catalogo/210104-23-multas-circulacion-detalle.txt</dcat:accessURL>
+    <dcat:mediaType>text/plain</dcat:mediaType>
+    <dcat:byteSize>56706048</dcat:byteSize>
+  </dcat:Distribution>
+</dcat:distribution>
+<dcat:distribution>
+  <dcat:Distribution>
+    <dct:title xml:lang="es">2014 Septiembre-Octubre. Agrupadas-excluidas</dct:title>
+    <dcat:accessURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://datos.madrid.es/egob/catalogo/210104-24-multas-circulacion-detalle.csv</dcat:accessURL>
+    <dcat:mediaType>text/csv</dcat:mediaType>
+    <dcat:byteSize>1024</dcat:byteSize>
+  </dcat:Distribution>
+</dcat:distribution>
+<dcat:distribution>
+  <dcat:Distribution>
+    <dct:title xml:lang="es">2014 Septiembre-Octubre. Agrupadas-excluidas</dct:title>
+    <dcat:accessURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://datos.madrid.es/egob/catalogo/210104-25-multas-circulacion-detalle.txt</dcat:accessURL>
+    <dcat:mediaType>text/plain</dcat:mediaType>
+    <dcat:byteSize>1024</dcat:byteSize>
+  </dcat:Distribution>
+</dcat:distribution>
+
+						</dcat:Dataset>
+					</dcat:dataset>
+				
+				
+								
+				
+			</dcat:Catalog>			 
+		</rdf:RDF>
+				
+
